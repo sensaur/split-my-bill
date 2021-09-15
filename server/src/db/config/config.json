@@ -1,0 +1,29 @@
+{
+  "development": {
+    "username": "admin",
+    "password": 123,
+    "database": "bill",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "seederStorage": "sequelize",
+    "seederStorageTableName": "sequelizeDataSeed"
+  },
+  "test": {
+    "username": "admin",
+    "password": 123,
+    "database": "bill",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "seederStorage": "sequelize",
+    "seederStorageTableName": "sequelizeDataSeed"
+  },
+  "production": {
+    "username": "admin",
+    "password": 123,
+    "database": "bill",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "seederStorage": "sequelize",
+    "seederStorageTableName": "sequelizeDataSeed"
+  }
+}

@@ -1,0 +1,150 @@
+.button-layout {
+  height: 50px;
+  font-size: 0.5rem;
+}
+
+/* .SignIn_button__1jmQA {
+  border: none;
+  width: 80%;
+  height: 36px;
+  cursor: default;
+  position: relative;
+  font-size: 15px;
+  border-radius: 5px;
+  white-space: nowrap;
+  font-weight: bold;
+  min-width: 36px;
+  outline: none;
+  padding: 0px 15px;
+  text-align: center;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-appearance: none;
+  appearance: none;
+  opacity: 0.6 !important;
+  color: rgba(223, 217, 217, 0.657);
+  background: linear-gradient(
+-135deg
+, rgb(97, 87, 255) 0%, rgb(153, 51, 255) 100%);
+} */
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #f3f7fa;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #9933ff;
+  border-color: #f3f7fa;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #9933ff;
+  border-color: #9933ff;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+  padding: .5rem 1rem;
+  font-size: 1.25rem;
+  border-radius: .3rem;
+}
+
+.checkout-page-container {
+  min-width: 1000px;
+}
+
+.list-group-checkout-page-position {
+  min-width: 11%; 
+  margin-left: 7%
+}
+
+.list-group-checkout-page-number {
+  min-width: 3%; 
+  margin-left: 3%
+}
+
+.list-group-checkout-page-price {
+  min-width: 7%; 
+  margin-left: 5%
+}
+
+.list-group-checkout-page-sum {
+  min-width: 9%; 
+  margin-left: 9%
+}
+
+.list-group-checkout-page-current {
+  min-width: 7%; 
+  margin-left: 3%
+}
+
+.progress-edit {
+  margin-bottom: 3%;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #272b30;
+  background-color: #272b30;
+  background-clip: padding-box;
+  border: 1px solid #f3f7fa;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-select {
+  display: block;
+  width: 100%;
+  padding: 0.75rem 3rem 0.75rem 1rem;
+  -moz-padding-start: calc(1rem - 3px);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #272b30;
+  background-color: #272b30;
+  background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%233a3f44' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e);
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  background-size: 16px 12px;
+  border: 1px solid #f3f7fa;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.form-control:disabled {
+  background-color: #5d5366;
+}
+
+.btn-primary:not([disabled]):not(.disabled).active:hover, .btn-primary:not([disabled]):not(.disabled):active:hover, .btn-primary:not([disabled]):not(.disabled):focus, .btn-primary:not([disabled]):not(.disabled):hover {
+  background-image: linear-gradient(#25282c, #292c30 40%, #2b2f32);
+  -webkit-filter: none;
+  filter: none;
+}
