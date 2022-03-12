@@ -1,13 +1,12 @@
-Проект Split My Bill направлен на упрощение процесса разделения счета после ужина в больших компаниях.
-Тот, кто оплатил счет, загружает чек, остальные участники ужина подсоединяются по уникальному коду чека. Каждый отмечает свою часть и нажимает подвердить. Последующие участники видят какие блюда уже были оплачены.
-Есть два варианта добавление чека: вручную и загрузка изоображения, которая будет распознана с помощью технологии OCR.
+Split My Bill web app is a service for splitting the total bill after lunch in large companies. The one who paid the bill uploads the check, the rest participants are connected using a unique check code. Everyone marks and confirm their items. Next participants are able to see which items have already been paid for. There are two options for adding a check: manually and uploading an image that will be recognized using OCR technology.
 
-В проекте использованы следующие технологии и инструменты:
 
-- OCR Google Vision API
+API & Technologies:
+
 - React + Redux Toolkit
-- Bootstrap
 - Postgress, Sequelize, Express
+- OCR Google Vision API
+- Bootstrap
 - Animate.css
   <img width="1440" alt="1" src="screenshots/1.gif">
   <img width="1440" alt="2" src="screenshots/2.png">
